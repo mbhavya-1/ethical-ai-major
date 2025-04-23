@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# CommunityGuard Prototype
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+CommunityGuard is a web application designed for fair, transparent, and culturally sensitive AI moderation of online communities. This prototype demonstrates the user interface for a content moderation system that aims to address cultural and linguistic biases in automated content moderation.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Live Moderation Feed**: View real-time moderated content with confidence scores
+- **Explainability Dashboard**: Understand why content was flagged for moderation
+- **Feedback System**: Submit appeals for moderation decisions
+- **Bias Auditing**: Visualize potential biases in the moderation system across different language dialects
+- **Model Performance**: Track and analyze AI model training and improvements
+- **Admin Configuration**: Set up moderation policies and reviewer access
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Deployed Version
 
-### `npm run build`
+The application is deployed at [https://ethical-ai-major.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- Tailwind CSS
+- Recharts (for data visualization)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   └── CommunityGuardApp.jsx  # Main application component
+├── App.js                     # Application entry point
+├── index.js                   # React rendering setup
+└── index.css                  # Global styles and Tailwind imports
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Navigate to the homepage of the application
+2. Use the sidebar to navigate between different sections:
+   - Home: Overview of the application
+   - Moderation: View live moderation feed and statistics
+   - Explainability: Analyze why content was flagged
+   - Feedback: Submit appeals for moderation decisions
+   - Bias Auditing: View potential biases in the moderation system
+   - Model Performance: Check AI model training insights
+   - Admin Panel: Configure moderation policies
